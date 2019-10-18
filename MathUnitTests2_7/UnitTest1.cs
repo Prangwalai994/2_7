@@ -15,7 +15,7 @@ namespace MathUnitTests2_7
 
             var result = math.Add(1, 2);
              
-            Assert.That(result, Is.EqualTo(2));
+            Assert.That(result, Is.EqualTo(3));
         }
         [Test]
         public void Max_FirstArgumentIsGreater_ReturnTheFirstArgument()
